@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		20BF17F024DD4E4600BE74C8 /* OpenClosePrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BF17EF24DD4E4600BE74C8 /* OpenClosePrinciple.swift */; };
 		20BF17F324DD56C500BE74C8 /* LiskovSubtitution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BF17F224DD56C500BE74C8 /* LiskovSubtitution.swift */; };
+		20BF17F624DD6D9300BE74C8 /* InterfaceSegregation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BF17F524DD6D9300BE74C8 /* InterfaceSegregation.swift */; };
 		20C5195A24DD09CC000EBBAE /* FoodService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5195924DD09CC000EBBAE /* FoodService.swift */; };
 		20C5195C24DD0AF7000EBBAE /* FoodExpiry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5195B24DD0AF7000EBBAE /* FoodExpiry.swift */; };
 		20FC7A6024DCA71E00FC942B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FC7A5F24DCA71E00FC942B /* main.swift */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		20BF17EF24DD4E4600BE74C8 /* OpenClosePrinciple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenClosePrinciple.swift; sourceTree = "<group>"; };
 		20BF17F224DD56C500BE74C8 /* LiskovSubtitution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiskovSubtitution.swift; sourceTree = "<group>"; };
+		20BF17F524DD6D9300BE74C8 /* InterfaceSegregation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceSegregation.swift; sourceTree = "<group>"; };
 		20C5195924DD09CC000EBBAE /* FoodService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodService.swift; sourceTree = "<group>"; };
 		20C5195B24DD0AF7000EBBAE /* FoodExpiry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodExpiry.swift; sourceTree = "<group>"; };
 		20FC7A5C24DCA71E00FC942B /* Solid Code */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Solid Code"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +72,14 @@
 				20BF17F224DD56C500BE74C8 /* LiskovSubtitution.swift */,
 			);
 			path = LiskovSubtitution;
+			sourceTree = "<group>";
+		};
+		20BF17F424DD6D7A00BE74C8 /* InterfaceSegregation */ = {
+			isa = PBXGroup;
+			children = (
+				20BF17F524DD6D9300BE74C8 /* InterfaceSegregation.swift */,
+			);
+			path = InterfaceSegregation;
 			sourceTree = "<group>";
 		};
 		20C5195724DD096E000EBBAE /* OOP_Pillars */ = {
@@ -110,6 +120,7 @@
 		20FC7A5E24DCA71E00FC942B /* Solid Code */ = {
 			isa = PBXGroup;
 			children = (
+				20BF17F424DD6D7A00BE74C8 /* InterfaceSegregation */,
 				20BF17F124DD56AD00BE74C8 /* LiskovSubtitution */,
 				20BF17EE24DD4E3600BE74C8 /* OpenClosePrinciple */,
 				20C5195824DD0998000EBBAE /* SingleResponsibility */,
@@ -189,6 +200,7 @@
 				20FC7A6F24DCD7F100FC942B /* Relationship.swift in Sources */,
 				20FC7A6024DCA71E00FC942B /* main.swift in Sources */,
 				20FC7A6924DCB66900FC942B /* Inheritance.swift in Sources */,
+				20BF17F624DD6D9300BE74C8 /* InterfaceSegregation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
