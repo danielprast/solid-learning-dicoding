@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		20FC7A6024DCA71E00FC942B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FC7A5F24DCA71E00FC942B /* main.swift */; };
+		20FC7A6724DCAC3F00FC942B /* Kucing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FC7A6624DCAC3F00FC942B /* Kucing.swift */; };
+		20FC7A6924DCB66900FC942B /* Inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FC7A6824DCB66900FC942B /* Inheritance.swift */; };
+		20FC7A6B24DCB9AE00FC942B /* Encapsulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FC7A6A24DCB9AE00FC942B /* Encapsulation.swift */; };
+		20FC7A6D24DCBD1B00FC942B /* Polymorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FC7A6C24DCBD1B00FC942B /* Polymorphism.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		20FC7A5C24DCA71E00FC942B /* Solid Code */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Solid Code"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20FC7A5F24DCA71E00FC942B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		20FC7A6624DCAC3F00FC942B /* Kucing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kucing.swift; sourceTree = "<group>"; };
+		20FC7A6824DCB66900FC942B /* Inheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inheritance.swift; sourceTree = "<group>"; };
+		20FC7A6A24DCB9AE00FC942B /* Encapsulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encapsulation.swift; sourceTree = "<group>"; };
+		20FC7A6C24DCBD1B00FC942B /* Polymorphism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polymorphism.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				20FC7A5F24DCA71E00FC942B /* main.swift */,
+				20FC7A6624DCAC3F00FC942B /* Kucing.swift */,
+				20FC7A6824DCB66900FC942B /* Inheritance.swift */,
+				20FC7A6A24DCB9AE00FC942B /* Encapsulation.swift */,
+				20FC7A6C24DCBD1B00FC942B /* Polymorphism.swift */,
 			);
 			path = "Solid Code";
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20FC7A6B24DCB9AE00FC942B /* Encapsulation.swift in Sources */,
+				20FC7A6724DCAC3F00FC942B /* Kucing.swift in Sources */,
+				20FC7A6D24DCBD1B00FC942B /* Polymorphism.swift in Sources */,
 				20FC7A6024DCA71E00FC942B /* main.swift in Sources */,
+				20FC7A6924DCB66900FC942B /* Inheritance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
